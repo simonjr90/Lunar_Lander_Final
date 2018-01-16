@@ -218,7 +218,7 @@ function modo1() {
 		document.getElementById("altura").innerHTML = cont.toFixed(2);
 		partida = 0;
 	} else if (altur <= 0 && veloc <= 5) {
-		document.getElementById('naveimg').src = "../img/copa.gif";
+		document.getElementById('naveimg').src = "img/copa.gif";
 		document.getElementById("altura").innerHTML = cont.toFixed(2);
 		document.getElementById("feliz").style.display = "block";
 		partida = 0;
